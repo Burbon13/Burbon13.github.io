@@ -1,0 +1,4 @@
+#caebf2 (light blue)
+#a9a9a9 (grey)
+#ff3b3f (red)
+#efefef (almost white)
