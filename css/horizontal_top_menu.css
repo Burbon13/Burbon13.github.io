@@ -27,6 +27,7 @@ a.horiz_menu {
 	color: #a9a9a9;
 	text-decoration: none;
 	background-color: #ffffff;
+	outline: 0;
 }
 
 a.active {
@@ -36,6 +37,7 @@ a.active {
 	color: #a9a9a9;
 	text-decoration: none;
 	background-color: #caebf2;
+	outline: 0;
 }
 
 a:hover.horiz_menu {
