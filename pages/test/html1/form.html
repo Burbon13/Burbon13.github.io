@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning forms</title>
+</head>
+<body>
+	<form>
+		First name: <input type="text" name="Name" disabled><br>
+		Last name: <input type="text" name="Surname"><br>
+		Barbeque: <input type="radio" name="true" disabled><br>
+		Salad: <input type="radio" name="Sauce"><br>
+		Ketchup: <input type="radio" name="ha" autofocus><br>
+		Mayoneze: <input type="radio" name="ha"><br>
+		Mustard: <input type="radio" name="ha"><br>
+		<input type="submit" name=""><br>
+
+		<select name="cars" size="3" multiple>
+  			<option value="volvo">Volvo</option>
+  			<option value="saab">Saab</option>
+  			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+			<option value="dacia">Dacia</option>
+			<option value="renault">Renault</option>
+		</select> <br>
+
+		<textarea name="message" rows="10" cols="30" disabled>I want to finish with Yardi stuff
+		</textarea>
+
+		<input type="range"  id="a" name="a" value="50">
+	</form>
+
+	<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+	<br><br>
+
+	<form>
+		<input list="browsers" placeholder="Salut">
+		<datalist id="browsers">
+    		<option value="Internet Explorer">
+    		<option value="Firefox">
+    		<option value="Chrome">
+    		<option value="Opera">
+    		<option value="Safari">
+  		</datalist>
+	</form>
+
+
+
+</body>
+</html>
