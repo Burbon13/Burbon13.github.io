@@ -2,7 +2,28 @@
 	text-align: center;
 	color: #a9a9a9;
 	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 2%;
 	font-size: 600%;
 	font-family: verdana;
+}
+
+div.main_link_div {
+	text-align: center;
+}
+
+img.main_link_div {
+	transition: 0.2s ease;
+	height: 3em;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+img:hover.main_link_div {
+	height: 4em;
+}
+
+a.main_link_div {
+	outline: 0;
 }
