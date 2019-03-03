@@ -12,7 +12,10 @@ div.main_link_div {
 }
 
 img.main_link_div {
-	transition: 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 	height: 3em;
 	margin-left: 4%;
 	margin-right: 4%;
