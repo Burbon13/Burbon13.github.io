@@ -1,17 +1,18 @@
-<!-- HTML 5 -->
-<!DOCTYPE html>
+<!-- HTML 4.01 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ro">
 <head>
 	<title>Formular CV</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
 </head>
-<body>
-
-<form>
-<table>
+<body bgcolor="#aeeaea">
+<center>
+<form action="/action_page.php">
+<table border="10">
   <tr>
     <th>Formular</th>
     <th>
-      Descriere si utlizare
+      Descriere și utlizare
     </th>
   </tr>
 	<tr>
@@ -19,31 +20,32 @@
 		  <fieldset><legend>Date personale</legend><table>
 				<tr>
 					<td>Nume</td>
-					<td><input type="text" name="nume" placeholder="e.g. Popa"></td>
+					<td><input type="text" name="nume"></td>
 					<td>Prenume</td>
-					<td><input type="text" name="prenume" placeholder="e.g. Ion"></td>
+					<td><input type="text" name="prenume"></td>
 				</tr>
 				<tr>
-					<td>Oras</td>
-					<td><input type="text" name="oras" placeholder="e.g. Brasov"></td>
-					<td>Tara</td>
-					<td><input type="text" name="tara" placeholder="e.g. Romania"></td>
+					<td>Oraș</td>
+					<td><input type="text" name="oras"></td>
+					<td>Țară</td>
+					<td><input type="text" name="tara"></td>
 				</tr>
 				<tr>
-					<td>Poza (optional)</td>
-					<td><a href="https://www.visualcv.com/cv-photo/" target="_blank">Motive pentru poza</a></td>
+					<td>Poza (opțional)</td>
+					<td><a href="https://www.visualcv.com/cv-photo/">Motive pentru poză</a></td>
 					<td colspan="2"><input type="file" name="profile_pic"></td>
 				</tr>
 			</table></fieldset>
 		</td>
     <td>
-      <p>
-        Toate campurile sunt obligatorii.<br> Pentru a incarca o poza apasati butonul "Browse...".<br>
-        Recomandam accesarea site-ului din link-ul "Motive pentru poza".
-      </p>
+      <div align="center">
+        <p>
+          Toate câmpurile sunt obligatorii.<br> Pentru a încărca o poză apăsați butonul "Browse...".<br>
+          Recomandăm accesarea site-ului din link-ul "Motive pentru poză".
+        </p>
+      </div>
     </td>
 	</tr>
-
 	<tr>
 		<td>
 			<fieldset><legend>Contact</legend><table>
@@ -52,58 +54,92 @@
 				</tr> -->
 				<tr>
 					<td>Email</td>
-					<td><input type="text" name="email" placeholder="e.g. example@yahoo.com"></td>
-					<td rowspan="2"><img src="assets/images/contact.jpg"  width="180" height="100" alt="Image showing email and phone icons"></td>
+					<td><input type="text" name="email"></td>
+					<td rowspan="2"><img src="assets/images/contact.jpg"  width="155" height="110" alt="Image showing email and phone icons"></td>
 				</tr>
 				<tr>
 					<td>Telefon</td>
-					<td><input type="tel" name="phone" placeholder="+40 0770 546 523"></td>
+					<td><input type="text" name="text"></td>
 				</tr>			
-			</table>
+			</table></fieldset>
 		</td>
     <td>
-      <p>
-        Email-ul trebuie sa fie o adresa valida.<br> Vom trimite un email de verificare inainte de a genera CV-ul.<br> Adaugati si prexiful tarii la numarul de telefon, de exemplu:<br> 
-        +40 0770 124 453
-      </p>
+      <div align="center">
+        <p>
+          Email-ul trebuie să fie o adresă <b>validă.</b><br> Vom trimite un email de verificare înainte de a genera CV-ul.<br> Adăugați și prexiful țării la numărul de telefon, de exemplu:<br> 
+          +40 0770 124 453
+        </p>
+      </div>
     </td>
 	</tr>
 
 	
 	<tr>
 		<td>
-			<table>
+			<fieldset><legend>Educație</legend><table>
 				<tr>
-					<th>Scoala</th>
-					<td><input type="text" name="liceu" placeholder="Liceu"></td>
-					<td><input type="text" name="liceu_final" placeholder="An finalizare"></td>
+					<th>Școala</th>
+					<td><input type="text" name="liceu"></td>
+					<td><input type="text" name="liceu_final"></td>
 				</tr>
 				<tr>
 					<th rowspan="2">Facultate</th>
-					<td><input type="text" name="universitate" placeholder="Universitate"></td>
-					<td><input type="text" name="facultate_final" placeholder="An finalizare"></td>
+					<td><input type="text" name="universitate"></td>
+					<td><input type="text" name="facultate_final"></td>
 				</tr>
 				<tr>
-					<td><input type="text" name="facultate_profil" placeholder="Profil"></td>
-					<td><input type="text" name="facultate_sectie" placeholder="Sectia"></td>
+					<td><input type="text" name="facultate_profil"></td>
+					<td><input type="text" name="facultate_sectie"></td>
 				</tr>
-			</table>
+			</table></fieldset>
 		</td>
     <td>
-      <p>
-        In cazul in care studiati/ati terminat master/doctorat,<br> completati campurile "Facultate" cu cele mai recente
-      </p>
+      <center>
+        <p>
+          În cazul în care studiați/ați terminat master/doctorat,<br> completați câmpurile "Facultate" cu cele mai recente
+        </p>
+      </center>
     </td>
 	</tr>
+  <tr>
+    <td>
+      <fieldset><legend>Link-uri utile</legend>
+        <table>
+          <tr>
+            <td>LinkedIn</td>
+            <td><input type="text" name="linkedin_link" size="50"></td>
+            <td><a href="https://www.linkedin.com/"><img src="assets/images/linkedin.png" alt="LinkedIn logo"></a></td>
+          </tr>
+          <tr>
+            <td>Github</td>
+            <td><input type="text" name="github_link" size="50"></td>
+            <td><a href="https://github.com/"><img src="assets/images/github.png" alt="Github logo"></a></td>
+          </tr>
+          <tr>
+            <td>Your Website</td>
+            <td><input type="text" name="website_link" size="50"></td>
+            <td><img src="assets/images/web.png" alt="Personal website logo"></td>
+          </tr>
+        </table>
+      </fieldset>
+    </td>
+    <td>
+      <div align="center">
+        <p>
+          Este foarte important să aveți link-uri peste care angajatorii<br> să se poată uita și să vadă cu cine au de-a face! 
+        </p>
+      </div>  
+    </td>
+  </tr>
 	<tr>
 		<td>
-			<table>
-				<tr>
+			<fieldset><legend>Experiență</legend><table>
+				<!-- <tr>
 					<th colspan="3">Experienta</th>
-				</tr>
+				</tr> -->
 				<tr>
-					<td><input type="text" name="firma1_nume" placeholder="Companie1"></td>
-					<td><input type="text" name="firma1_pozitie" placeholder="Pozitie"></td>
+					<td><input type="text" name="firma1_nume"></td>
+					<td><input type="text" name="firma1_pozitie"></td>
 					<td>
 						<select name="experience_time1">
 						<option value="s1">sub 1 an</option>
@@ -118,8 +154,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td><input type="text" name="firma2_nume" placeholder="Companie2"></td>
-					<td><input type="text" name="firma2_pozitie" placeholder="Pozitie"></td>
+					<td><input type="text" name="firma2_nume"></td>
+					<td><input type="text" name="firma2_pozitie"></td>
 					<td>
 						<select name="experience_time2">
 						<option value="s1">sub 1 an</option>
@@ -134,8 +170,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td><input type="text" name="firma3_nume" placeholder="Companie3"></td>
-					<td><input type="text" name="firma3_pozitie" placeholder="Pozitie"></td>
+					<td><input type="text" name="firma3_nume"></td>
+					<td><input type="text" name="firma3_pozitie"></td>
 					<td>
 						<select name="experience_time3">
 						<option value="s1">sub 1 an</option>
@@ -152,14 +188,16 @@
 			</table></fieldset>
 		</td>
     <td>
-      <p>
-        In cazul in care ati lucrat la mai mult de 3 firme,<br> completati-le pe cele mai recente.
-      </p>
+      <center>
+        <p>
+          În cazul în care ați lucrat la mai mult de 3 firme,<br> completați-le pe cele mai recente.
+        </p>
+      </center>
     </td>
 	</tr>
   <tr>
     <td>
-      <fieldset><legend>Competente (Limbaje de Programare)</legend><table>
+      <fieldset><legend>Competențe (Limbaje de Programare)</legend><table>
         <!-- <tr>
           <th colspan="2">Competente (Limbaje de Programare)</th>
         </tr> -->
@@ -198,7 +236,7 @@
         </tr>
         <tr>
           <td colspan="2">
-            <textarea placeholder="La ce ai folosit acest limbaj?" cols="55" rows="5" maxlength="300" readonly>L-am folosit la Metode Avansate de Programare, impreuna cu Gradle si JavaFx</textarea>
+            <textarea cols="55" rows="5" readonly>L-am folosit la Metode Avansate de Programare, impreuna cu Gradle si JavaFx</textarea>
           </td>
         </tr>
         <tr>
@@ -224,7 +262,7 @@
           <td>
             <select name="language2_time">
             <option value="s1">sub 1 an</option>
-             <option value="1an">1 an</option>
+            <option value="1an">1 an</option>
             <option value="2an">2 ani</option>
             <option value="3an">3 ani</option>
             <option value="4an">4 ani</option>
@@ -236,7 +274,7 @@
         </tr>
         <tr>
           <td colspan="2">
-            <textarea placeholder="La ce ai folosit acest limbaj?" cols="55" rows="5" maxlength="300" ></textarea>
+            <textarea cols="55" rows="5"></textarea>
           </td>
         </tr>
         <tr>
@@ -274,12 +312,12 @@
         </tr>
         <tr>
           <td colspan="2">
-            <textarea placeholder="La ce ai folosit acest limbaj?" cols="55" rows="5" maxlength="300" ></textarea>
+            <textarea cols="55" rows="5"></textarea>
           </td>
         </tr>
         <tr>
           <td>How many programming languages do you know?</td>
-          <td><input type="number" name="quantity" min="0" max="20" step="1"></td>
+          <td><input type="text" name="quantity"></td>
         </tr>
         <tr>
           <td>Select all the programming languages that you know</td>
@@ -305,46 +343,50 @@
       </table></fieldset>
     </td>
     <td>
-      <p>
-        Limbajele sunt prestabilite, acestea fiind cele mai cautate pe piata.<br>
-      </p>
-      <h3>Sfaturi pentru completare</h3>
+      <center>
+        <p>
+          Limbajele sunt prestabilite, acestea fiind <b>cele mai căutate pe piață.</b><br>
+        </p>
+        <h3>Sfaturi pentru completare</h3>
+      </center>
       <ul>
-        <li>Scrieti la ce proiecte ati folosit limbajul</li>
-        <li>Mentionati tehnologiile/framework-urile folosite cu respectivul limbaj</li>
+        <li>Scrieți la ce proiecte ați folosit limbajul</li>
+        <li>Menționați tehnologiile/framework-urile folosite cu respectivul limbaj</li>
         <li>
-          Ce va pasioneaza la acest limbaj
+          Ce vă pasionează la acest limbaj
           <ol type="a">
-            <li>Sintaza</li>
-            <li>Usurinta folosirii</li>
+            <li>Sintaxa</li>
+            <li>Ușurința folosirii</li>
             <li>Framework-urile</li>
             <li>Open source :)</li>
           </ol>
         </li>
-        <li>Ce nu v-a placut</li>
+        <li>Ce nu v-a plăcut</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <th>Despre tine</th>
-    <td rowspan="2">
-      <h3>Sfaturi pentru descriere</h3>
+    <td>
+      <fieldset>
+        <legend>Despre tine</legend>
+        <textarea cols="55" rows="5"></textarea>
+      </fieldset>
+    </td>
+    <td>
+      <center>
+        <h3>Sfaturi pentru descriere</h3>
+      </center>
       <ol>
-        <li>Fi sincer</li>
-        <li>Evidentiaza ca esti
-          <ol type="a" start="24">
+        <li>Sinceritate</li>
+        <li>Evidențiază că ești
+          <ol>
             <li>Pasionat</li>
             <li>Dedicat</li>
             <li>Muncitor</li> 
           </ol>
         </li>
-        <li>Povesteste putin si despre hobby-uri</li>
+        <li>Povestește puțin și despre hobby-uri</li>
       </ol>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <textarea placeholder="Povesteste despre tine (hobby-uri, pasiuni, etc.)" cols="55" rows="10"></textarea>
     </td>
   </tr>
 	<tr>
@@ -354,27 +396,30 @@
           <td colspan="3"><input type="checkbox" name="gdrp" value="gdpr"> Sunt de acord cu prelucrarea datelor cu <strong>caracter personal</strong></td>
         </tr>
         <tr>
-          <td colspan="3"><input type="checkbox" name="gdrp" value="gdpr"> Vreau sa ma abonez la newsletter-ul "Facatorul de CV-uri"<br></td>
+          <td colspan="3"><input type="checkbox" name="gdrp" value="gdpr"> Vreau să mă abonez la newsletter-ul "Făcătorul de CV-uri"<br></td>
         </tr>
         <tr>
           <td colspan="3">
-            <input type="radio" name="save_option" value="local" checked>Save locally<br>
-            <input type="radio" name="save_option" value="email">Send to email<br>
-            <input type="radio" name="save_option" value="dropbox">Upload to DropBox
+            <input type="radio" name="save_option" value="local" checked>Savează local<br>
+            <input type="radio" name="save_option" value="email">Trimite pe email<br>
+            <input type="radio" name="save_option" value="dropbox">Trimite pe DropBox
           </td>
         </tr>
 				<tr>
 					<td>Data CV-ului</td>
-					<td><input type="date" name="date" min="1979-12-31" max="2019-12-31"></td>
+					<td><input type="text" name="date"></td>
 					<td><input type="submit" name="submit" value="Genereaza CV" disabled="disabled"></td>
         </tr>
 			</table>
 		</td>
     <td>
-      <img src="assets/images/hired.jpg" width="200" height="130" alt="Image showing hiring">
+      <center>
+        <img src="assets/images/like.png" width="130" height="130" alt="Image showing hiring">
+      </center>
     </td>
 	</tr>
 </table>
 </form>
+</center>
 </body>
 </html>

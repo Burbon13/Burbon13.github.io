@@ -1,0 +1,43 @@
+div.fieldset_test {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+legend.fieldset_test {
+	color: #ff3b3f;
+	font-size: 120%;
+}
+
+fieldset.fieldset_test {
+	border:3px solid #caebf2;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    -o-border-radius: 8px;
+    border-radius:8px;	
+    text-align: center;
+}
+
+a.fieldset_test {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	outline: 0;
+}
+
+a:link.fieldset_test {
+	text-decoration: none;
+}
+
+a:visited.fieldset_test {
+	text-decoration: none;
+}
+
+a:hover.fieldset_test {
+  /*text-decoration: underline;*/
+  font-size: 125%;
+}
+
+a:active.fieldset_test {
+  text-decoration: none;
+}
