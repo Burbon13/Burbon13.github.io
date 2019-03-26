@@ -1,0 +1,59 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+li {
+    display: inline;
+    position: relative;
+    border-style: solid;
+    border-radius: 30px;
+    /* display: block; */
+    text-align: center;
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 90px;
+    padding: 10px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 8px 8px 15px -3px rgba(222,42,216,1);
+    -moz-box-shadow: 8px 8px 15px -3px rgba(222,42,216,1);
+    box-shadow: 8px 8px 15px -3px rgba(222,42,216,1);
+    margin-left: 140px;
+    background-color: lightpink;
+}
+
+li::before {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    content: "";
+    left: -180px;
+    top: 0;
+    background: url("personaje.png");
+    border: 3px solid blue;
+    border-radius: 50px;
+}
+
+li::after {
+    position: absolute;
+    border: transparent;
+    border-bottom: solid;
+    border-left: solid;
+    content: "";
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    left: -19px;
+    top: 32px;
+    background-color: lightpink;
+}
+
+.alice::before {
+    background-position: 100px -1px;
+}
+
+.bob::before {
+    background-position: 0 0;
+}
