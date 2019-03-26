@@ -22,6 +22,7 @@ li {
     box-shadow: 8px 8px 15px -3px rgba(222,42,216,1);
     margin-left: 140px;
     background-color: lightpink;
+    border-width: 3px;
 }
 
 li::before {
@@ -48,6 +49,7 @@ li::after {
     left: -19px;
     top: 32px;
     background-color: lightpink;
+    border-width: 3px;
 }
 
 .alice::before {
