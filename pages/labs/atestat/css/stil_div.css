@@ -1,0 +1,259 @@
+p
+{
+	text-align: justify;
+	font-size: 18px;
+}
+
+img {
+	position: relative;
+	left: 4%;
+	border-radius: 10%;
+}
+
+
+body{
+	background-color: #7f1010;
+}
+
+div.on_page {
+	margin-top: 60px;
+}
+
+div.div_header{
+	background-color: #1a1a1a;
+	border: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body#home a#homenav,
+body#ist a#istorie,
+body#prep a#preparare,
+body#tip a#tipuri,
+body#chest a#chestionar,
+body#cont a#contact
+{
+	background-color: #111;
+}
+
+.photo-left
+{
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 80px;
+	max-width: 100%;
+	height: auto;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.text-left
+{
+	float: left;
+	width: 45%;
+	padding: 20px;
+	line-height: 25px;
+}
+
+.text-right
+{
+	
+	line-height: 25px;
+	padding: 20px;
+	padding-right: 50px;
+}
+
+.photo-right
+{
+	margin-left: 0px;
+}
+
+.text_lung
+{
+	padding: 80px;
+	font-size: 21px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+.text_lung h4
+{
+	color: #bd8e00;
+	margin-bottom: 2px;
+}
+
+.formular
+{
+	padding: 10px;
+	padding-top: 50px;
+	font-size: 21px;
+}
+
+.formular input[type=text], input[type=email]
+{
+    margin: 8px 0;
+    box-sizing: border-box;
+	box-shadow: 0px;
+	border-radius: 10px;
+}
+
+.formular textarea
+{
+	margin: 8px 0;
+	border-radius: 10px;
+}
+
+.formular input[type=submit], input[type=reset]
+{
+    background-color: #111;
+    border: none;
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.formular input[type=submit]:hover, input[type=reset]:hover
+{
+	background-color: #bd8e00;
+	border: none;
+	color: #000;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.chestionar
+{
+	padding: 10px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.chestionar p
+{
+	font-size: 21px;
+	text-align: center;
+}
+
+#categorylist
+{ 
+	margin-top: 6px; 
+	display: none; 
+} 
+
+#category1,
+#category2,
+#category3,
+#category4,
+#category5,
+#category6,
+#category7,
+#category8,
+#category9,
+#category10,
+#category11 
+{ 
+	display: none; 
+}
+
+#closing
+{
+	display: none;
+	font-style: italic;
+}
+
+label
+{ 
+	margin-left: 0.5em; 
+	cursor: pointer; 
+} 
+
+#results 
+{
+	margin: 20px auto;
+	background: #111; 
+	color: #fff;
+	padding-top: 10px; 
+	text-align: center; 
+	width: 200px; 
+	cursor: pointer;
+	height: 30px;
+	border-radius: 10px;
+}
+
+#results:hover
+{
+	background: #bd8e00;
+	color: #000;
+	padding-top: 10px; 
+	text-align: center; 
+	width: 200px; 
+	cursor: pointer;
+	height: 30px;
+	border-radius: 10px;
+}
+
+#reset 
+{
+	margin: 20px auto;
+	background: #111; 
+	color: #fff;
+	padding-top: 10px; 
+	text-align: center; 
+	width: 200px; 
+	cursor: pointer;
+	height: 30px;
+	border-radius: 10px;
+}
+
+#reset:hover
+{
+	background: #bd8e00;
+	color: #000;
+	padding-top: 10px; 
+	text-align: center; 
+	width: 200px; 
+	cursor: pointer;
+	height: 30px;
+	border-radius: 10px;
+}
