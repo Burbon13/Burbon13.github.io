@@ -1,0 +1,3 @@
+Cand afiseaza raspunsurile gresite, daca poate afisa pe centrul ecranului
+pozele de la tipuri aranjate
+la contact sa fie puse mai pe centru alea

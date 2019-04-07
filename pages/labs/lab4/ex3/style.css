@@ -1,0 +1,22 @@
+.wrapper {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+#nr_select {
+    width: 120px;
+}
+
+#reset_bu, #start_bu {
+    width: 120px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+}
